@@ -1,0 +1,8 @@
+HTML5
+- Is not a programming language
+
+Tag syntax
+- <tag>element name surrounded by angle brackets
+- </tag> closing tag
+- Example: <h1>This is a heading</h1?
+- Sometimes we only have opening tag <img>

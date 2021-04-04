@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello, world!</title>
+</head>
+
+<style>
+    body {
+        background-color: pink;
+        color: green;
+    }
+
+    h1 {
+        color: black;
+    }
+
+    img {
+        width: 50px;
+    }
+</style>
+
+<body>
+    <!-- Headings -->
+    <h1>h1 Title</h1> <!-- Importance of page -->
+    <h2>h2 Title</h2> <!-- Less important -->
+    <h3>h3 Title</h3> <!-- Less important -->
+    <h4>h4 Title</h4> <!-- Less important -->
+    <h5>h5 Title</h5> <!-- Less important -->
+    <h6>h6 Title</h6> <!-- Less important -->
+
+    <!-- Paragraphs -->
+    <p>This is a <b>paragraph</b></p> <!-- Nested <b> -->
+    <p>This is a <b><i>paragraph</i></b></p>
+    <p>This is a <strong>paragraph 2</strong></p> <!-- Important -->
+    <p>This is a <small>small</small></p>
+    <p>This is a <sub>subscript</sub></p>
+    <p>This is a <sup>subscript</sup></p>
+    <p>This is a <del>subscript</del></p> <!-- Crossed -->
+
+    <!-- Quotes -->
+    <q>This is a quote</q> <!-- Quote -->
+    <blockquote>This is a quote</blockquote> <!-- Large quote -->
+
+    <!-- \n = next line -->
+    <p>First line <br> Second line</p> <!-- <br> no closing tag -->
+
+    <!-- Links -->
+    <a href="https://www.google.com" target="_blank">Go to Google!</a> <!-- Open new tab -->
+    <a href="about.html">Go to about page!</a>
+
+    <!-- Image -->
+    <img src="image/image.jpg" alt="Kim Hyuna laying">
+
+    <!-- Tables -->
+    <table>
+        <thead>
+            <tr>
+                <th>Heading 1</th>
+                <th>Heading 2</th>
+                <th>Heading 3</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <!-- Row 1 -->
+            <tr>
+                <td>Value 1</td>
+                <td>Value 2</td>
+                <td>Value 3</td>
+            </tr>
+
+            <!-- Row 2 -->
+            <tr>
+                <td>Value 1</td>
+                <td>Value 2</td>
+                <td>Value 3</td>
+            </tr>
+
+            <!-- Row 3 -->
+            <tr>
+                <td>Value 1</td>
+                <td>Value 2</td>
+                <td>Value 3</td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <!-- Lists -->
+    <!-- ul no number -->
+    <ul>
+        <li><a href="about.html">Item</a></li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ul>
+
+    <!-- ol with number -->
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+
+    <!-- Block elements = One block on your website -->
+    <!-- Divide website by blocks -->
+    <!-- No semantic sense, you don't tell anything to the browser -->
+    <!-- Block element you can use to style your website -->
+    <!-- You can change the div how the website will look  -->
+    <div>
+        Div element
+    </div>
+
+    <!-- HTML5: Elements and layout -->
+
+    <!-- Header = For your navigation bar on your website, 1 header per page, logo -->
+    <header>
+        <h1>Kim Hyuna</h1>
+        <!-- Nav = navigation bar -->
+        <nav>
+            <ul>
+                <li><a href="">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main = Main part of the website, most important -->
+    <main>
+        <!-- Section = A category e.g. cats -->
+        <section>
+            <h1>Hyuna's blog posts</h1>
+            <!-- Article = Blog post, Tied together, who is on the image, grouping elements -->
+            <article>
+                <img src="image/image.jpg">
+                <h2>This is John</h2>
+            </article>
+            <article>
+                <img src="image/image.jpg">
+                <h2>This is John</h2>
+            </article>
+            <article>
+                <img src="image/image.jpg">
+                <h2>This is John</h2>
+            </article>
+        </section>
+    </main>
+
+    <!-- Aside = Less important articles -->
+    <aside>
+        <article>
+            <h1></h1>
+            <img src="" alt="">
+            <p></p>
+        </article>
+    </aside>
+
+    <!-- Footer = Put the footer in here -->
+    <footer>
+
+    </footer>
+
+
+    <!-- Inline element = A part of a line on your website -->
+    <p>This is a text</p><a>This is a inline element</a></p>
+    <p>asdfghjkl</p>
+
+    <!-- Forms -->
+    <form action="action.php">
+        <label>Your name</label>
+        <input type="number" placeholder="Enter your name" value="1000">
+        <br>
+        <input type="radio" name="gender" value="male"> <!-- name is group -->
+        <label>Male</label>
+        <br>
+        <input type="radio" name="gender" value="female">
+        <label>Female</label>
+        <br>
+        <input type="radio" name="gender" value="other">
+        <label>Other</label>
+        <br>
+        <!-- Button -->
+        <input type="submit" value="Send me">
+        <button type="reset">Reset</button> <!-- Reset radio button -->
+    </form>
+</body>
+</html>
